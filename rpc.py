@@ -2,6 +2,8 @@ import random
 
 rpsls = ("rock", "paper", "scissors", "lizard", "spock")
 rnd = 0
+plyer = 0
+comp = 0
 print()
 print("""You are going to play rock, paper, scissors, lizard, spock since you thought that the normal rock, paper, scissors was way too boring.
 Here's how this abomination of a 'game' works but first, please press 'enter' to make sure you are ready to continue""")
@@ -55,6 +57,15 @@ if ent == "":
                 print("You loose!")
         else:
             print("Wut? That's not an option! You loose!")
+        if print("You loose!"):
+            comp += 1
+        elif print("You won!"):
+            plyer += 1
+        print()
+        print()
+        print("player", plyer)
+        print("computer", comp)
+        print()
         ent = input("""Would you like to go another round? Please press 'enter' if so.
 Please type anything other than 'enter', than 'enter' if you don't want to play again.
 >""")
