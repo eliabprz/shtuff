@@ -33,35 +33,40 @@ if ent == "":
         elif player == "Rock" or player == "rock":
             if computer == "scissors" or computer == "lizard":
                 print("You won!")
+                plyer += 1
             elif computer == "paper" or computer == "spock":
                 print("You loose!")
+                comp += 1
         elif player == "paper" or player == "Paper":
             if computer == "rock" or computer == "spock":
                 print("You won!")
+                plyer += 1
             elif computer == "scissors" or computer == "lizard":
                 print("you loose!")
+                comp += 1
         elif player == "scissors" or player == "Scissors":
             if computer == "paper" or computer == "lizard":
                 print("You won")
+                plyer += 1
             elif computer == "rock" or computer == "spock":
                 print("You loose!")
+                comp += 1
         elif player == "Lizard" or player == "lizard":
             if computer == "paper" or computer == "spock":
                print("You won!")
+               plyer += 1
             elif computer == "rock" or computer == "scissors":
                 print("You loose!")
+                comp += 1
         elif player == "Spock" or player == "spock":
             if computer == "rock" or computer == "scissors":
                 print("You won!")
+                plyer += 1
             elif computer == "paper" or computer == "lizard":
                 print("You loose!")
+                comp += 1
         else:
             print("Wut? That's not an option! You loose!")
-        if print("You loose!"):
-            comp += 1
-        elif print("You won!"):
-            plyer += 1
-        print()
         print()
         print("player", plyer)
         print("computer", comp)
